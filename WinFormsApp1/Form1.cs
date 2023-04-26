@@ -27,7 +27,7 @@ namespace WinFormsApp1
 						float divider;
 						divider = float.Parse(textBox1.Text);
 						if (divider == 0)
-							MessageBox.Show("Внимание! Деление на ноль!");
+							MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! Р”РµР»РµРЅРёРµ РЅР° РЅРѕР»СЊ!");
 						else
 						{
 							b = a / divider;
@@ -41,7 +41,7 @@ namespace WinFormsApp1
 			}
 			catch (Exception)
 			{
-				MessageBox.Show("Внимание! Неправильно набрано число!");
+				MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РЅР°Р±СЂР°РЅРѕ С‡РёСЃР»Рѕ!");
 			}
 		}
 
@@ -60,7 +60,7 @@ namespace WinFormsApp1
 			}
 			catch (FormatException)
 			{
-				MessageBox.Show("Внимание! Неправильно набрано число!");
+				MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РЅР°Р±СЂР°РЅРѕ С‡РёСЃР»Рѕ!");
 			}
 		}
 
@@ -88,7 +88,7 @@ namespace WinFormsApp1
 			}
 			catch (FormatException)
 			{
-				MessageBox.Show("Внимание! Неправильно набрано число!");
+				MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РЅР°Р±СЂР°РЅРѕ С‡РёСЃР»Рѕ!");
 			}
 		}
 
@@ -102,7 +102,7 @@ namespace WinFormsApp1
 			}
 			catch (FormatException)
 			{
-				MessageBox.Show("Внимание! Неправильно набрано число!");
+				MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РЅР°Р±СЂР°РЅРѕ С‡РёСЃР»Рѕ!");
 			}
 		}
 
@@ -128,7 +128,7 @@ namespace WinFormsApp1
 				a = float.Parse(textBox1.Text);
 				if (a < 0)
 				{
-					MessageBox.Show("Внимание! Аргумент отрицательный!");
+					MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РђСЂРіСѓРјРµРЅС‚ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Р№!");
 				}
 				else
 				{
@@ -138,7 +138,7 @@ namespace WinFormsApp1
 			}
 			catch (FormatException)
 			{
-				MessageBox.Show("Внимание! Неправильно набрано число!");
+				MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РЅР°Р±СЂР°РЅРѕ С‡РёСЃР»Рѕ!");
 			}
 		}
 
@@ -167,7 +167,7 @@ namespace WinFormsApp1
 			}
 			catch(FormatException)
 			{
-				MessageBox.Show("Внимание! Неправильно набрано число!");
+				MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РЅР°Р±СЂР°РЅРѕ С‡РёСЃР»Рѕ!");
 			}
 		}
 
@@ -193,7 +193,7 @@ namespace WinFormsApp1
 				a = float.Parse(textBox1.Text);
 				if (a == 0)
 				{
-					MessageBox.Show("Внимание! Деление на ноль!");
+					MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! Р”РµР»РµРЅРёРµ РЅР° РЅРѕР»СЊ!");
 				}
 				else
 				{
@@ -203,7 +203,7 @@ namespace WinFormsApp1
 			}
 			catch (FormatException)
 			{
-				MessageBox.Show("Внимание! Неправильно набрано число!");
+				MessageBox.Show("Р’РЅРёРјР°РЅРёРµ! РќРµРїСЂР°РІРёР»СЊРЅРѕ РЅР°Р±СЂР°РЅРѕ С‡РёСЃР»Рѕ!");
 			}
 			
 		}
