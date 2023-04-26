@@ -226,6 +226,7 @@ namespace WinFormsApp1
 		private void button20_Click(object sender, EventArgs e)
 		{
 			Calculate();
+			Trace.WriteLine("Calculate");
 		}
 
 		private void label1_Click(object sender, EventArgs e)
