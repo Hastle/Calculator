@@ -1,4 +1,3 @@
-
 namespace WinFormsApp1
 {
     public partial class Form : System.Windows.Forms.Form
